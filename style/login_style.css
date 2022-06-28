@@ -1,0 +1,68 @@
+body {
+    font-family: '微軟正黑體';
+    background-image: url("https://prd-image-masters.caravan-stories.com.tw/c/sig=1.wJPHhERFgwnK6pqXcpnOuTgK_Pkdv2HcqqPh335P2iM=/caravan-stories/masters/production-tw/attachments/1b21c7fb435b583e0592c03c04df26a9.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login {
+    background-color: white;
+    opacity: 0.5;
+    color: black;
+    width: 400px;
+    padding: 40px;
+    box-shadow: 5px 5px 15px #000000;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.login input {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    background: none;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 15px;
+    outline: none;
+    color: black;
+}
+
+.login input[type="text"], .login input[type="password"] {
+    border: 3px solid black;
+    text-align: left;
+}
+
+.login input[type="submit"] {
+    font-size: 20px;
+    width: 110px;
+    border: 3px solid black;
+    cursor: pointer;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.login input[type="text"]:focus, .login input[type="password"]:focus {
+    border-color: #0000AA;
+    width: 280px;
+    transition: 0.5s;
+}
+
+.login input[type="submit"]:hover {
+    background-color: #444444;
+    transition: 0.1s;
+    color: white;
+}
+
+i {
+    font-size: 80px;
+}
+
+.login p {
+    font-size: 18px;
+}
